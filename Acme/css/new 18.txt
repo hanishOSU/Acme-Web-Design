@@ -1,6 +1,0 @@
-RESTASSURED
-TESTNG
-JSONPATH
-Excel sheet
-JExcel 
-Apache POI
