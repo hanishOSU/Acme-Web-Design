@@ -1,0 +1,38 @@
+/tmp/ccYG2rWM.o: In function `WordCountReducer::reduce(HadoopPipes::ReduceContext&)':
+/home/vnavulu/PA3/wordcount.cpp:42: undefined reference to `HadoopUtils::toInt(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/home/vnavulu/PA3/wordcount.cpp:45: undefined reference to `HadoopUtils::toString[abi:cxx11](int)'
+/tmp/ccYG2rWM.o: In function `WordCountMapper::map(HadoopPipes::MapContext&)':
+/home/vnavulu/PA3/wordcount.cpp:25: undefined reference to `HadoopUtils::splitString(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*)'
+/home/vnavulu/PA3/wordcount.cpp:28: undefined reference to `HadoopUtils::toString[abi:cxx11](int)'
+/home/hadoop/hadoop/lib/native/libhadooppipes.a(HadoopPipes.cc.o): In function `HadoopPipes::BinaryProtocol::createDigest(std::string&, std::string&)':
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:426: undefined reference to `EVP_sha1'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:426: undefined reference to `HMAC_Init'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:427: undefined reference to `HMAC_Update'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:429: undefined reference to `HMAC_Final'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:430: undefined reference to `HMAC_CTX_cleanup'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:436: undefined reference to `BIO_f_base64'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:436: undefined reference to `BIO_new'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:437: undefined reference to `BIO_s_mem'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:437: undefined reference to `BIO_new'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:438: undefined reference to `BIO_push'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:439: undefined reference to `BIO_write'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:440: undefined reference to `BIO_ctrl'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:441: undefined reference to `BIO_ctrl'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:446: undefined reference to `BIO_free_all'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:426: undefined reference to `EVP_sha1'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:426: undefined reference to `HMAC_Init'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:427: undefined reference to `HMAC_Update'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:429: undefined reference to `HMAC_Final'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:430: undefined reference to `HMAC_CTX_cleanup'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:436: undefined reference to `BIO_f_base64'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:436: undefined reference to `BIO_new'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:437: undefined reference to `BIO_s_mem'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:437: undefined reference to `BIO_new'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:438: undefined reference to `BIO_push'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:439: undefined reference to `BIO_write'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:440: undefined reference to `BIO_ctrl'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:441: undefined reference to `BIO_ctrl'
+/home/jenkins/jenkins-slave/workspace/HADOOP2_Release_Artifacts_Builder/hadoop-tools/hadoop-pipes/src/main/native/pipes/impl/HadoopPipes.cc:446: undefined reference to `BIO_free_all'
+collect2: error: ld returned 1 exit status
+Makefile:7: recipe for target 'wordcount' failed
+make: *** [wordcount] Error 1

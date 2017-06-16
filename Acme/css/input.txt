@@ -1,0 +1,1 @@
+The last log listed in the history directory is interesting. It contains the start and end time of all the tasks that ran during the execution of our Hadoop program.

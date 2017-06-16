@@ -1,0 +1,12 @@
+CC = g++
+HADOOP_HOME = /home/hadoop/hadoop
+PLATFORM = Linux-amd64-64
+CPPFLAGS = -m64 -I$(HADOOP_HOME)/c++/$(PLATFORM)/include
+HADOOP_INCLUDE_DIR=-I$(HADOOP_HOME)/$(PLATFORM)/include
+HADOOP_LIB_DIR=-L$(HADOOP_HOME)/src/c++/pipes -L$(HADOOP_HOME)/src/c++/utils
+
+wordcount: wordcount.cpp
+$(CC) $(CPPFLAGS) $< -Wall -L$(HADOOP_HOME)/$(PLATFORM)/lib -lhadooppipes \
+-lhadooputils -lpthread -g -O2 -o $@
+
+/home/hadoop/hadoop/Linux-amd64-64/include

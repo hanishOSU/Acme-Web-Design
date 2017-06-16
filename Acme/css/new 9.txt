@@ -1,0 +1,1 @@
+Q #1 - Make File issues. Please make appropriate changes to the make file. The VM's in CSH are 64-bit VM's. All the header files for pipes is under the folder /home/hadoop/hadoop/include. Library file for pipes is under the folder /home/hadoop/hadoop/lib/native/
